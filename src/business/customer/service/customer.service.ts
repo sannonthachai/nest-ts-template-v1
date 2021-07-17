@@ -18,7 +18,7 @@ export class CustomerService {
     customer.CitizenID = 1100801054599
     customer.FirstNameTH = 'sannonthachai'
     customer.LastNameTH = 'tunphainich'
-    console.log(this.configService.get<string>('MYSQL_CONNECT'))
+    console.log(this.configService.get<string>('mysqlCon'))
     return customer
   }
 
