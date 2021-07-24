@@ -1,5 +1,5 @@
 export class CreateCustomerDto {
-  CitizenID: number
-  FirstNameTH: string
-  LastNameTH: string
+  citizenID: number
+  firstNameTH: string
+  lastNameTH: string
 }
