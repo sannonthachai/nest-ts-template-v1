@@ -4,7 +4,7 @@ import {CustomerController} from './controller/customer.controller';
 import {CustomerService} from './service/customer.service';
 import {ConfigModule} from '@nestjs/config';
 import {CustomerRepository} from './repository/customer.repository'
-import {Customer, CustomerSchema} from '@/schemas/mongo/customer.schema';
+import {Customer, CustomerSchema} from '@/schemas/customer/customer.schema';
 
 
 @Module({
